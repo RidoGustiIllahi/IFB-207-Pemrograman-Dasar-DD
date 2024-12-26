@@ -62,7 +62,24 @@ kedelai_total = 0
 for i in data_panen.values():
     padi_total += i['hasil_panen']['padi']
     kedelai_total += i['hasil_panen']['kedelai']
-    
+
 print(f"Hasil total panen padi disetiap lokasi adalah : {padi_total}")
 print(f"Hasil total panen kedelai disetiap lokasi adalah : {kedelai_total}")
+print("===============================")
+
+print("============Nomor 5============")
+padi_panen = []
+kedelai_panen = []
+
+for i in data_panen.values():
+    padi_panen.append(i['hasil_panen']['padi'])
+    kedelai_panen.append(i['hasil_panen']['kedelai'])
+
+print("Hasil Panen Padi di setiap Lokasi")
+for i in range(len(padi_panen)):
+    print(f"Lokasi {i+1} : {padi_panen[i]}")
+
+print("Hasil Panen Kedelai di setiap Lokasi")
+for i in range(len(kedelai_panen)):
+    print(f"Lokasi {i+1} : {kedelai_panen[i]}")
 print("===============================")
