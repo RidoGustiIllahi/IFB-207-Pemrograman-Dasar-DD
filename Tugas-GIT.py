@@ -54,3 +54,15 @@ print("===============================")
 print("============Nomor 3============")
 print(f"Nama dari lokasi3 adalah : {data_panen['lokasi3']['nama_lokasi']}")
 print("===============================")
+
+print("============Nomor 4============")
+padi_total = 0
+kedelai_total = 0
+
+for i in data_panen.values():
+    padi_total += i['hasil_panen']['padi']
+    kedelai_total += i['hasil_panen']['kedelai']
+    
+print(f"Hasil total panen padi disetiap lokasi adalah : {padi_total}")
+print(f"Hasil total panen kedelai disetiap lokasi adalah : {kedelai_total}")
+print("===============================")
