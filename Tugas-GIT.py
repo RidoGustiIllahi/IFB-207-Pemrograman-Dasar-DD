@@ -83,3 +83,13 @@ print("Hasil Panen Kedelai di setiap Lokasi")
 for i in range(len(kedelai_panen)):
     print(f"Lokasi {i+1} : {kedelai_panen[i]}")
 print("===============================")
+
+print("============Nomor 6============")
+for i,j in data_panen.items():
+    if j['hasil_panen']['padi'] > 1300 or j['hasil_panen']['jagung'] > 800:
+        kondisi  = "Memerlukan Perhatian Khusus"
+    else:
+        kondisi = "Dalam Kondisi Baik"
+
+    print(f"{i} yaitu {j['nama_lokasi']} {kondisi}")
+print("===============================")
