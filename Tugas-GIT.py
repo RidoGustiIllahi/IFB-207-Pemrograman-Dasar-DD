@@ -93,3 +93,5 @@ for i,j in data_panen.items():
 
     print(f"{i} yaitu {j['nama_lokasi']} {kondisi}")
 print("===============================")
+
+print("Contoh Perubahan")
