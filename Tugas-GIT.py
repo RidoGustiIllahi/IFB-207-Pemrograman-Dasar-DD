@@ -49,3 +49,8 @@ print("===============================")
 
 print("============Nomor 2============")
 print(f"Hasil panen jagung di lokasi2 adalah : {data_panen['lokasi2']['hasil_panen']['jagung']}")
+print("===============================")
+
+print("============Nomor 3============")
+print(f"Nama dari lokasi3 adalah : {data_panen['lokasi3']['nama_lokasi']}")
+print("===============================")
