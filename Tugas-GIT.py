@@ -46,3 +46,6 @@ print("============Nomor 1============")
 for i,j in data_panen.items():
     print(i,j)
 print("===============================")
+
+print("============Nomor 2============")
+print(f"Hasil panen jagung di lokasi2 adalah : {data_panen['lokasi2']['hasil_panen']['jagung']}")
