@@ -40,3 +40,9 @@ data_panen = {
         }
     }
 }
+
+
+print("============Nomor 1============")
+for i,j in data_panen.items():
+    print(i,j)
+print("===============================")
